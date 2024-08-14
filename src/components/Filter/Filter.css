@@ -1,0 +1,45 @@
+.input-field {
+    /* display: flex; */
+    /* background: #515966; */
+    background: #212121;
+
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    transition: max-height 05s;
+    overflow: hidden;
+}
+
+input{  
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: none;
+    padding: 17px  14px;
+    font-size: 16px;
+    /* color: #ffffff; */
+}
+.input-field svg  {
+    margin-left: 15px;
+    color: rgb(88, 221, 163);
+    /* color: #04bd7d; */
+}
+
+
+.input-box{
+    cursor: pointer;
+    background: #212121;
+    display: inline-flex;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 3px;
+    color: #9EA2A8;
+    /* margin-bottom: 15px; */
+}
+
+.filter-svg{
+    font-size: 21px;
+}

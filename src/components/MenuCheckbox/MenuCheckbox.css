@@ -1,0 +1,48 @@
+.container-menu-check{
+    position: relative;
+    max-width: 320px;
+    width: 100%;
+}
+.list-items{
+    position: absolute;
+    margin-top:5px ;
+    background: #212121;
+    /* box-shadow: 0px 4px 4px 0px ; */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    width: calc(28% - 5px);
+    /* background-color: crimson; */
+    
+}
+
+.list-items .item{
+    display: flex; 
+    gap: 5px;
+    list-style: none;
+    font-size: 16px;
+    padding: 5px;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+}
+
+.item input {
+    width: auto !important;
+    accent-color: #58DDA3
+}
+
+.item p {
+    font-size: 16px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.item p:hover {
+   color: #58DDA3;
+}
+
+
+/* .list-items .item:hover{
+    background-color: #353535;
+} */

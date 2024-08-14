@@ -1,0 +1,26 @@
+.review-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 810px;
+    color: #9EA2A8;
+    margin-left: 1rem;
+}
+
+.review-container article{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 10px 0;
+   
+}
+
+.review-container article h3{
+    color: white;
+}
+
+
+.review-container > p{
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 20px;
+}
