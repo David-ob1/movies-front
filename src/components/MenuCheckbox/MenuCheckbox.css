@@ -10,21 +10,26 @@
     /* box-shadow: 0px 4px 4px 0px ; */
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     width: calc(28% - 5px);
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: space-between;
     /* background-color: crimson; */
     
 }
 
 .list-items .item{
+    /* padding: ; */
     display: flex; 
     gap: 5px;
     list-style: none;
     font-size: 16px;
-    padding: 5px;
+    padding: 8px;
+    /* margin: 2px; */
     justify-content: start;
     align-items: center;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .item input {

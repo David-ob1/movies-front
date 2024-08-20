@@ -38,8 +38,17 @@ input{
     gap: 3px;
     color: #9EA2A8;
     /* margin-bottom: 15px; */
+    transition: .4s;
+}
+
+.input-box:hover{
+    color: #58DDA3;
 }
 
 .filter-svg{
     font-size: 21px;
+}
+
+.display-none{
+    display: none;
 }
